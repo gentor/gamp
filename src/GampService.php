@@ -45,7 +45,7 @@ class GampService
      */
     public function __call($method, array $args)
     {
-        return $this->analytics->{$method};
+        return $this->analytics->{$method}($args);
     }
 
 }

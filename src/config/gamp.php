@@ -31,7 +31,7 @@ return [
     | https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters#tid
     |
     */
-    'tracking_id' => $_ENV['GA_TRACKING_ID'],
+    'tracking_id' => env('GA_TRACKING_ID'),
 
     /*
     |--------------------------------------------------------------------------
