@@ -1,4 +1,4 @@
-Intercom
+GAMP (Google Analytics Measurement Protocol)
 ===============
 
 Send analytics data to Google Analytics from Laravel. A package for GA Measurement Protocol API
